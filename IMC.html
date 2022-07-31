@@ -11,12 +11,17 @@
         <header>
             <h1>Verifique seu Indice de Massa Corporal.</h1>
         </header>
-        <section>
-            <p>Digite seu peso: <input type="number" id="peso"></p>
-          <p>Digite sua Altura: <input type="number" id="altura"></p>
-          <input type="button" value="Calcular" onclick="calcular()">
-          <div id="resultado"></div>
-        </section>
+       <form>
+            <section>
+                <input type="radio" name="sexo" id ="masculino"><label for="masculino">Masculino: </label><br><br>
+                <input type="radio" name="sexo" id="feminino" checked><label for="feminino">Feminino: </label>
+                
+                <p>Digite seu peso: <input type="number" id="peso"></p>
+                <p>Digite sua Altura: <input type="number" id="altura"></p>
+                <input type="button" value="Calcular" onclick="calcular()">
+                <div id="resultado"></div>
+            </section>
+       </form>
         <footer>
            <p>&copy; My project_By_FábioBenfica</p> 
         </footer>
